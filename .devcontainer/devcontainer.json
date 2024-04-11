@@ -1,5 +1,14 @@
 {
   "dockerComposeFile": "../docker-compose.yaml",
   "service": "app",
-  "workspaceFolder": "/app"
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "dsznajder.es7-react-js-snippets",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  }
 }
